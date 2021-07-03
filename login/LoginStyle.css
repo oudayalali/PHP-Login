@@ -1,0 +1,67 @@
+
+.user_card{
+			width: 360px;
+			margin-top: 130px;
+			margin-bottom: auto;
+			position: relative;
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+			border-radius: 15px;
+			box-shadow: 0 0 10px rgba(255,255,255,.3);
+			background-color: rgba(0,0,0,.7);
+			padding: 50px;
+			opacity: 0.8;
+
+
+}
+
+body,html{
+			margin: 0;
+			padding: 0;
+			height: 100%;
+			background-image: url('background.jpg');
+			background-attachment: fixed;
+			background-size:100% 100%;
+			background-repeat: no-repeat;
+			font-family: Arial, Helvetica, sans-serif;
+			color:cornsilk !important;
+}
+
+.user_card:hover{
+					opacity: 1;
+
+}
+.logo_container{
+					background-color: rgba(0,0,0,.7);
+					height: 170px;
+					width: 170px;
+					top:-115px;
+					text-align: center;
+					border-radius: 50%;
+					position: absolute;
+					padding: 10px;
+					text-align: center;
+
+}
+.logo{
+		height:150px;
+		width: 150px;
+		border-radius: 50%;
+		border: 2px solid white;
+}
+ hr{
+	  width: 96%;               
+	  background-color:cornsilk;
+	  height: 5px !important;
+	  border-radius: 5px;
+}
+
+.form_container{
+	margin-top: 5px;
+}
+ 
+ 
+  a {
+    color: dodgerblue;
+  }
